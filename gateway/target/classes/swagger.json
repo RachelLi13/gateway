@@ -1,0 +1,30 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "Case Runtime API provides APIs for Case Application functions",
+    "version" : "v1",
+    "title" : "Case Runtime API",
+    "contact" : {
+      "name" : "Opentext",
+      "email" : "contact@opentext.com"
+    }
+  },
+  "host" : "localhost:8081",
+  "basePath" : "/",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/employee/message" : {
+      "get" : {
+        "operationId" : "test",
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
