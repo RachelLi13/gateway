@@ -11,7 +11,7 @@
     <modules>
         <module>first</module>
         <module>second</module>
-        <module>gateway</module>
+        <module>cloud-gateway</module>
     </modules>
 
     <properties>

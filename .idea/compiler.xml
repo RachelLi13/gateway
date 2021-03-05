@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="first-service" />
         <module name="first" />
-        <module name="gateway" />
+        <module name="second-service" />
+        <module name="cloud-gateway" />
         <module name="second" />
       </profile>
     </annotationProcessing>
@@ -15,7 +17,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="first" options="-parameters" />
+      <module name="first-service" options="-parameters" />
       <module name="second" options="-parameters" />
+      <module name="second-service" options="-parameters" />
     </option>
   </component>
 </project>
